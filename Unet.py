@@ -32,7 +32,7 @@ def crop_tensor(tensor, target_tensor):
 
 class UNet(nn.Module):
     """
-    Implements Full Architecture as it is described in the paper
+    Implements Full Architecture as it is described in the Unet paper
     """
 
     def __init__(self):
